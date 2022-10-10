@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+
+  <!--Nerfs the demolishers explosion damange HP and explosion time. Default values in order from top to bottom 5000, 800, 2, 1000 -->
+  <set xpath="/entity_classes/entity_class/property[@name='Explosion.BlockDamage']/@value">25</set>
+  <set xpath="/entity_classes/entity_class/property[@name='Explosion.EntityDamage']/@value">25</set>
+  <set xpath="/entity_classes/entity_class/property[@name='ExplodeDelay']/@value">5</set>
+  <!-- Removing health nerfs for now
+  <set xpath="/entity_classes/entity_class[@name='zombieDemolition']/effect_group/passive_effect[@name='HealthMax'][@value=1000]/@value">100</set>
+   -->
+
+</configs>

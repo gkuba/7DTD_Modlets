@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+
+	<!--Nerfs demolisers hand damage to blocks default value 500.-->
+	<set xpath="/items/item[@name='meleeHandZombieDemolition']/property/property[@name='DamageBlock']/@value">25</set>
+
+</configs>
