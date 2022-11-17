@@ -1,0 +1,4 @@
+<config>
+<!--Allows you to adjust the percentage chance of a gore pile from a zombie dying in darkness falls. Default value is 0.25 -->
+<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='CorpseBlockChance']/@value">0.05</set>
+</config>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="AdjustGorePile-DF" />
+		<Description value="Allows you to change the percentage chance of a gore pile drop from a zombie when they die." />
+		<Author value="GKuba" />
+		<Version value="A20.6" />
+	</ModInfo>
+</xml>
