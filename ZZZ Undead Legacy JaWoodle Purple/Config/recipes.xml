@@ -1,0 +1,10 @@
+<KatalaSwiftwind>
+    <append xpath="/recipes">
+
+        <recipe name="JaWoodlePurple" time="60" area="ulmStationTailor_1">
+            <ingredient name="resourcePaint" count="5"/>
+            <ingredient name="resourceCropChrysanthemumPlant" count="2"/>
+            <ingredient name="foodCropBlueberries" count="5"/>
+            <ingredient name="ulmResourceCoalPowder" count="2"/></recipe>
+    </append>
+</KatalaSwiftwind>
