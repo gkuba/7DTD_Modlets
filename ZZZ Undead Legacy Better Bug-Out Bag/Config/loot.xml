@@ -4,7 +4,7 @@
 <remove xpath="/lootcontainers/lootgroup[@name='groupStarterKit']/item[@name='ammo9mmBulletBall']"></remove>
 <remove xpath="/lootcontainers/lootgroup[@name='groupStarterKit']/item[@name='ulmGunKineticPistolMakarov']"></remove>
 
-<set xpath="/lootcontainers/lootgroup[@name='groupStarterKit']/@loot_quality_template">questT1QualTemplate</set>
+<set xpath="/lootcontainers/lootgroup[@name='groupStarterKit']/@loot_quality_template">questT2QualTemplate</set>
 
 <append xpath="/lootcontainers/lootgroup[@name='groupStarterKit']">
 	<item name="resourceCloth" count="3,6"/>
