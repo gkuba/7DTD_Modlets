@@ -4,12 +4,12 @@
 <remove xpath="/lootcontainers/lootgroup[@name='groupStarterKit']/item[@name='ammo9mmBulletBall']"></remove>
 <remove xpath="/lootcontainers/lootgroup[@name='groupStarterKit']/item[@name='ulmGunKineticPistolMakarov']"></remove>
 
-<set xpath="/lootcontainers/lootgroup[@name='groupStarterKit']/@loot_quality_template">questT2QualTemplate</set>
+<set xpath="/lootcontainers/lootgroup[@name='groupStarterKit']/@loot_quality_template">QLTemplateT3</set>
 
 <append xpath="/lootcontainers/lootgroup[@name='groupStarterKit']">
 	<item name="resourceCloth" count="3,6"/>
 	<item name="foodRawMeat" count="20,40"/>
-	<item name="ulmGunKineticPistolColt" count="1" quality="1,10"/>
+	<item name="ulmGunKineticPistolColt" count="1"/>
 	<item name="ammo44MagnumBulletBall" count="10,20"/>
 	<item name="questRewardT0LightArmorBundle" count="1"/>
 </append>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+  <ModInfo>
+    <Name value="Undead Legacy Custom Skill Points" />
+    <Description value="Allows you to set how many skill points are awarded per level." />
+    <Author value="KatalaSwiftwind" />
+    <Version value="A20" />
+  </ModInfo>
+</xml>
