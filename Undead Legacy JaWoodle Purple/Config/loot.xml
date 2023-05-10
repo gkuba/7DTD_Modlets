@@ -1,5 +1,5 @@
 <KatalaSwiftwind>
-	<append xpath="lootcontainers/lootgroup[@name='dyes']">
+	<append xpath="/lootcontainers/lootgroup[@name='dyes']">
 		<item name="JaWoodlePurple"/>
 	</append>
 </KatalaSwiftwind>

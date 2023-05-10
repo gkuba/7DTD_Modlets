@@ -1,0 +1,120 @@
+<KatalaSwiftwind>
+
+<!-- Empty Pallet -->
+<set xpath="/blocks/block[@name='palletEmpty']">
+	<property name="Group" value="Decor,Commercial,Blocks,Player"/>
+	<property name="Class" value="ULM_Decor,UndeadLegacy"/>
+	<property name="Extends" value="woodWeakNoUpgradeMaster" param1="Group"/>
+	<property name="Shape" value="ModelEntity"/><property name="Model" value="Entities/Industrial/palletPrefab"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="DescriptionKey" value="creativeMenuBlockGroupDesc"/>
+	<property name="EconomicValue" value="4"/><property name="CarryWeight" value="0.5"/><property name="Weight" value="50"/>
+	<drop event="Harvest" name="ulmResourcePlank" count="2,3" tag="allHarvest"/>
+	<drop event="Harvest" name="ulmResourceScrapPlank" count="1,2" tag="allHarvest"/>
+	<drop event="Harvest" name="resourceNail" count="2,4" tag="allHarvest"/>
+	<drop event="Destroy" name="ulmResourceScrapWood" count="1,2"/></set>
+	
+<!-- Empty Pallets, Full Stack -->
+<set xpath="/blocks/block[@name='palletEmptyStack']">
+	<property name="Group" value="Decor,Commercial,Blocks,Player"/>
+	<property name="Class" value="ULM_Decor,UndeadLegacy"/>
+	<property name="Extends" value="woodNoUpgradeMaster" param1="Group"/>
+	<property name="Shape" value="ModelEntity"/><property name="Model" value="Entities/Industrial/pallet_stackPrefab"/>
+	<property name="Path" value="solid"/><property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
+	<property name="DescriptionKey" value="creativeMenuBlockGroupDesc"/>
+	<property name="EconomicValue" value="4"/><property name="CarryWeight" value="0.5"/><property name="Weight" value="100"/>
+	<drop event="Harvest" name="ulmResourcePlank" count="10,15" tag="allHarvest"/>
+	<drop event="Harvest" name="ulmResourceScrapPlank" count="5,10" tag="allHarvest"/>
+	<drop event="Harvest" name="resourceNail" count="10,20" tag="allHarvest"/>
+	<drop event="Destroy" name="ulmResourceScrapWood" count="5,10"/></set>
+	
+<!-- Pallet, White Bags, Base -->
+<set xpath="/blocks/block[@name='palletWhiteBagsBase']">
+	<property name="Group" value="Decor,Commercial,Construction,Blocks,Player"/>
+	<property name="Class" value="ULM_Decor,UndeadLegacy"/>
+	<property name="Shape" value="ModelEntity"/><property name="Model" value="Entities/Industrial/pallet_bags_basePrefab"/>
+	<property name="Path" value="solid"/><property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
+	<property name="ImposterExchange" value="imposterBlock" param1="125"/>
+	<property name="DescriptionKey" value="creativeMenuBlockGroupDesc"/>
+	<property name="Material" value="Msandstone"/><property name="MaxDamage" value="200"/>
+	<property name="EconomicValue" value="20"/><property name="CarryWeight" value="1"/>
+	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.5" stick_chance="1"/>
+	<drop event="Harvest" name="resourceCement" count="2,10" tag="allHarvest"/>
+	<drop event="Harvest" name="ulmResourcePlank" count="2,3" tag="allHarvest"/>
+	<drop event="Harvest" name="ulmResourceScrapPlank" count="1,2" tag="allHarvest"/>
+	<drop event="Harvest" name="resourceNail" count="2,4" tag="allHarvest"/>
+	<drop event="Destroy" name="ulmResourceScrapWood" count="1,2"/></set>
+	
+<!-- Pallet, Bricks, Base -->
+<set xpath="/blocks/block[@name='palletBricksBase']">
+	<property name="Group" value="Decor,Commercial,Construction,Blocks,Player"/>
+	<property name="Class" value="ULM_Decor,UndeadLegacy"/>
+	<property name="Shape" value="ModelEntity"/><property name="Model" value="Entities/Industrial/pallet_bricks_basePrefab"/>
+	<property name="Path" value="solid"/><property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
+	<property name="ImposterExchange" value="imposterBlock" param1="57"/>
+	<property name="DescriptionKey" value="creativeMenuBlockGroupDesc"/>
+	<property name="Material" value="Mbrick"/><property name="MaxDamage" value="200"/>
+	<property name="EconomicValue" value="20"/><property name="CarryWeight" value="1"/>
+	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+	<drop event="Harvest" name="ulmResourceBrick" count="2,10" tag="allHarvest"/>
+	<drop event="Harvest" name="ulmResourcePlank" count="2,3" tag="allHarvest"/>
+	<drop event="Harvest" name="ulmResourceScrapPlank" count="1,2" tag="allHarvest"/>
+	<drop event="Harvest" name="resourceNail" count="2,4" tag="allHarvest"/>
+	<drop event="Destroy" name="ulmResourceScrapWood" count="1,2"/></set>
+	
+<!-- Pallet, Blue Tarp, Base -->
+<set xpath="/blocks/block[@name='palletBlueTarpBase']">
+	<property name="Group" value="Decor,Commercial,Construction,Blocks,Player"/>
+	<property name="Shape" value="ModelEntity"/><property name="Model" value="Entities/Industrial/pallet_tarp_basePrefab"/>
+	<property name="Path" value="solid"/><property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
+	<property name="ImposterExchange" value="imposterBlock" param1="19"/>
+	<property name="DescriptionKey" value="creativeMenuBlockGroupDesc"/>
+	<property name="Material" value="matClay"/><property name="MaxDamage" value="200"/>
+	<property name="EconomicValue" value="20"/><property name="CarryWeight" value="1"/>
+	<drop event="Fall" name="resourceClayLump" count="1" prob="0.5" stick_chance="1"/>
+	<drop event="Harvest" name="resourceClayLump" count="20,40" tag="allHarvest"/>
+	<drop event="Harvest" name="ulmResourcePlank" count="2,3" tag="allHarvest"/>
+	<drop event="Harvest" name="ulmResourceScrapPlank" count="1,2" tag="allHarvest"/>
+	<drop event="Harvest" name="resourceNail" count="2,4" tag="allHarvest"/>
+	<drop event="Destroy" name="ulmResourceScrapWood" count="1,2"/></set>
+	
+<!-- Stacked Boxes -->
+<set xpath="/blocks/block[@name='palletBrownBoxesBase']">
+	<property name="Group" value="Storage,Decor,Commercial,Blocks,Player"/>
+	<property name="Class" value="ULM_Loot,UndeadLegacy"/><property name="LootList" value="cardboardPallet"/>
+	<property name="CanPickup" value="true"/>
+	<property name="Shape" value="ModelEntity"/><property name="Model" value="Entities/Industrial/pallet_boxes_basePrefab"/>
+	<property name="Path" value="solid"/><property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
+	<property name="ImposterExchange" value="imposterBlock" param1="149"/>
+	<property name="Material" value="matPaper"/><property name="Weight" value="100"/>
+	<property name="EconomicValue" value="25"/><property name="CarryWeight" value="1"/>
+	<property class="RepairItems"><property name="resourcePaper" value="50"/></property>
+	<drop event="Fall" name="ulmTerrDestroyedPaperDebris" count="1" prob="0.75" stick_chance="1"/>
+	<drop event="Harvest" name="resourcePaper" count="5,25" tag="allHarvest"/>
+	<drop event="Harvest" name="ulmResourcePlank" count="2,3" tag="allHarvest"/>
+	<drop event="Harvest" name="ulmResourceScrapPlank" count="1,2" tag="allHarvest"/>
+	<drop event="Harvest" name="resourceNail" count="2,4" tag="allHarvest"/>
+	<drop event="Destroy" name="ulmResourceScrapWood" count="1,2"/></set>
+	
+<!-- Electronics Store Pallet TV Fallen -->
+<set xpath="/blocks/block[@name='cntStoreElectronicsPalletTvFallen']">
+	<property name="Group" value="Decor,Commercial,Blocks,Player"/>
+	<property name="Class" value="ULM_Decor,UndeadLegacy"/>
+	<property name="Shape" value="ModelEntity"/><property name="Model" value="Entities/Commercial/electronicsPalletTvFallenPrefab"/>
+	<property name="Path" value="solid"/><property name="Collide" value="melee,bullet,arrow,rocket"/>
+	<property name="ImposterExchange" value="imposterHalf" param1="81"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="Material" value="MCardboardLoot"/>
+	<property name="EconomicValue" value="12"/><property name="CarryWeight" value="0.5"/>
+	<property name="DescriptionKey" value="creativeMenuBlockGroupDesc"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<drop event="Harvest" name="air" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourcePaper" count="3,12" tag="allHarvest"/>
+	<drop event="Harvest" name="resourceScrapPolymers" count="2,3" tag="allHarvest"/>
+	<drop event="Harvest" name="resourceElectricParts" count="2,4" tag="salvageHarvest"/>
+	<drop event="Harvest" name="ulmResourcePlank" count="2,3" tag="allHarvest"/>
+	<drop event="Harvest" name="ulmResourceScrapPlank" count="1,2" tag="allHarvest"/>
+	<drop event="Harvest" name="resourceNail" count="2,4" tag="allHarvest"/>
+	<drop event="Destroy" name="ulmResourceScrapWood" count="1,2"/></set>
+	
+</KatalaSwiftwind>

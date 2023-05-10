@@ -1,0 +1,24 @@
+<Rolyatja>
+
+<!-- Increase Vending Machine Loot and Add Medical Loot (ULM) -->
+
+<remove xpath="/traders/trader_info[@id='4']"/>
+
+<insertAfter xpath="/traders/trader_info[@id='3']">
+
+<trader_info id="4" full_reset="true" reset_interval="4" override_buy_markup="1.0" allow_sell="false" min_inventory="20" max_inventory="30" min_items_swapped="10" max_items_swapped="15">
+	<trader_items count="20">
+		<item group="groupFoodCandy"			count="1,2" prob=".7"/>
+		<item group="groupFoodCanned"			count="2" prob=".6"/>
+		<item group="groupDrinks"				count="2" prob=".5"/>
+		<item name="medicalBandage" 			count="1,2" prob=".3"/>
+		<item name="medicalFirstAidBandage" 	count="1,2" prob=".3"/>
+		<item name="medicalSplint" 				count="1" prob=".3"/>
+		<item name="drugPainkillers" 			count="1" prob=".2"/>
+		<item name="drugVitamins" 				count="1" prob=".2"/>
+	</trader_items>
+</trader_info>
+
+</insertAfter>
+
+</Rolyatja>

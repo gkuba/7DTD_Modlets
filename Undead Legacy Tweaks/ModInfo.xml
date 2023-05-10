@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+	<ModInfo>
+		<Name value="Rolyatja - Increased Zombie Loot Bags" />
+		<Description value="Increases probability of zombie loot drop lootbag despawn time to 20 minutes." />
+		<Author value="Rolyatja" />
+		<Version value="1.0" />
+	</ModInfo>
+</xml>
