@@ -1,0 +1,15 @@
+<configs>
+	<append xpath="/lootcontainers/lootgroup[@name='dyes']">
+		<item name="Dye: Dracula Pink"/>
+		<item name="Dye: Dracula Purple"/>
+		<item name="Dye: Dracula Cyan"/>
+		<item name="Dye: Dracula Green"/>
+		<item name="Dye: Dracula Yellow"/>
+		<item name="Dye: Dracula Orange"/>
+		<item name="Dye: Dracula Red"/>
+		<item name="Dye: Dracula Blue"/>
+		<item name="Dye: Dracula White"/>
+		<item name="Dye: Dracula Grey"/>
+		<item name="Dye: Dracula Black"/>
+	</append>
+</configs>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<xml>
+			<Name value="KatalaSwiftwind_Extra_Dyes"/>
+			<DisplayName  value="KatalaSwiftwind Extra Dyes" />
+			<Description value="Adds a few extra dyes to the game."/>
+			<Author value="KatalaSwiftwind"/>
+			<Version value="1.0"/>
+			<Website value=""/>
+	</xml>

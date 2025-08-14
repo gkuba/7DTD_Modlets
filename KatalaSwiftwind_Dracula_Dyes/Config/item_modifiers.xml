@@ -1,0 +1,194 @@
+<configs>
+<append xpath="/item_modifiers">
+	
+	<!-- Dracula Theme Dyes -->
+
+	<item_modifier name="Dye: Dracula Pink" installable_tags="weapon,tool,vehicle,drone" modifier_tags="dye" type="attachment" cosmetic_install_chance=".2">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="255,121,198"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+
+		<item_property_overrides name="*">
+			<property name="TintColor" value="255,121,198"/>
+			<property name="CustomIconTint" value="255,121,198"/>
+			<property name="UMA.Overlay0Tint" value="255,121,198"/>
+		</item_property_overrides>
+
+	</item_modifier>
+
+	<item_modifier name="Dye: Dracula Purple" installable_tags="weapon,tool,vehicle,drone" modifier_tags="dye" type="attachment" cosmetic_install_chance=".2">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="189,147,249"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+
+		<item_property_overrides name="*">
+			<property name="TintColor" value="189,147,249"/>
+			<property name="CustomIconTint" value="189,147,249"/>
+			<property name="UMA.Overlay0Tint" value="189,147,249"/>
+		</item_property_overrides>
+
+	</item_modifier>
+
+	<item_modifier name="Dye: Dracula Cyan" installable_tags="weapon,tool,vehicle,drone" modifier_tags="dye" type="attachment" cosmetic_install_chance=".2">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="139,233,253"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+
+		<item_property_overrides name="*">
+			<property name="TintColor" value="139,233,253"/>
+			<property name="CustomIconTint" value="139,233,253"/>
+			<property name="UMA.Overlay0Tint" value="139,233,253"/>
+		</item_property_overrides>
+
+	</item_modifier>
+
+	<item_modifier name="Dye: Dracula Green" installable_tags="weapon,tool,vehicle,drone" modifier_tags="dye" type="attachment" cosmetic_install_chance=".2">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="80,250,123"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+
+		<item_property_overrides name="*">
+			<property name="TintColor" value="80,250,123"/>
+			<property name="CustomIconTint" value="80,250,123"/>
+			<property name="UMA.Overlay0Tint" value="80,250,123"/>
+		</item_property_overrides>
+
+	</item_modifier>
+
+	<item_modifier name="Dye: Dracula Yellow" installable_tags="weapon,tool,vehicle,drone" modifier_tags="dye" type="attachment" cosmetic_install_chance=".2">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="241,250,140"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+
+		<item_property_overrides name="*">
+			<property name="TintColor" value="241,250,140"/>
+			<property name="CustomIconTint" value="241,250,140"/>
+			<property name="UMA.Overlay0Tint" value="241,250,140"/>
+		</item_property_overrides>
+
+	</item_modifier>
+
+	<item_modifier name="Dye: Dracula Orange" installable_tags="weapon,tool,vehicle,drone" modifier_tags="dye" type="attachment" cosmetic_install_chance=".2">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="255,184,108"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+
+		<item_property_overrides name="*">
+			<property name="TintColor" value="255,184,108"/>
+			<property name="CustomIconTint" value="255,184,108"/>
+			<property name="UMA.Overlay0Tint" value="255,184,108"/>
+		</item_property_overrides>
+
+	</item_modifier>
+
+	<item_modifier name="Dye: Dracula Red" installable_tags="weapon,tool,vehicle,drone" modifier_tags="dye" type="attachment" cosmetic_install_chance=".2">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="255,85,85"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+
+		<item_property_overrides name="*">
+			<property name="TintColor" value="255,85,85"/>
+			<property name="CustomIconTint" value="255,85,85"/>
+			<property name="UMA.Overlay0Tint" value="255,85,85"/>
+		</item_property_overrides>
+
+	</item_modifier>
+
+	<item_modifier name="Dye: Dracula Blue" installable_tags="weapon,tool,vehicle,drone" modifier_tags="dye" type="attachment" cosmetic_install_chance=".2">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="98,114,164"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+
+		<item_property_overrides name="*">
+			<property name="TintColor" value="98,114,164"/>
+			<property name="CustomIconTint" value="98,114,164"/>
+			<property name="UMA.Overlay0Tint" value="98,114,164"/>
+		</item_property_overrides>
+
+	</item_modifier>
+
+	<item_modifier name="Dye: Dracula White" installable_tags="weapon,tool,vehicle,drone" modifier_tags="dye" type="attachment" cosmetic_install_chance=".2">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="248,248,242"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+
+		<item_property_overrides name="*">
+			<property name="TintColor" value="248,248,242"/>
+			<property name="CustomIconTint" value="248,248,242"/>
+			<property name="UMA.Overlay0Tint" value="248,248,242"/>
+		</item_property_overrides>
+
+	</item_modifier>
+
+	<item_modifier name="Dye: Dracula Grey" installable_tags="weapon,tool,vehicle,drone" modifier_tags="dye" type="attachment" cosmetic_install_chance=".2">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="68,71,90"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+
+		<item_property_overrides name="*">
+			<property name="TintColor" value="68,71,90"/>
+			<property name="CustomIconTint" value="68,71,90"/>
+			<property name="UMA.Overlay0Tint" value="68,71,90"/>
+		</item_property_overrides>
+
+	</item_modifier>
+
+	<item_modifier name="Dye: Dracula Black" installable_tags="weapon,tool,vehicle,drone" modifier_tags="dye" type="attachment" cosmetic_install_chance=".2">
+	    <property name="Extends" value="modGeneralMaster"/>
+	    <property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="40,42,54"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+
+		<item_property_overrides name="*">
+			<property name="TintColor" value="40,42,54"/>
+			<property name="CustomIconTint" value="40,42,54"/>
+			<property name="UMA.Overlay0Tint" value="40,42,54"/>
+		</item_property_overrides>
+
+	</item_modifier>
+
+</append>
+</configs>

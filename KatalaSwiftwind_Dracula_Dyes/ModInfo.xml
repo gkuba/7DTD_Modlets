@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<xml>
+			<Name value="KatalaSwiftwind_Dracula_Dyes"/>
+			<DisplayName  value="KatalaSwiftwind Dracula Dyes" />
+			<Description value="Adds Dracula themed dyes to the game"/>
+			<Author value="KatalaSwiftwind"/>
+			<Version value="1.0"/>
+			<Website value=""/>
+	</xml>
